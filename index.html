@@ -7,6 +7,7 @@
     <meta name="keywords" content="Gerador de senhas, password generator">
     <title>Gerador de Senha</title>
 
+    <link rel="shortcut icon" href="./assets/icon.png" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,11 +18,11 @@
     <span>Tamanho: <span id="valor"></span> caracteres.</span>
     <input id="slider" class="slider" type="range" min="8" max="20" value="8" />
 
-    <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
+    <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha 🔒</button>
  </main>
 
  <div id="container-password" onclick = "copyPassword()" class="container-password hide">
-    <span class="title">Sua senha gerada é:</span>
+    <span class="title">Sua nova senha é:</span>
     <span id="password" class="password"></span>
     <span class="tooltip">Clique na senha para copiar.👆</span>
  </div>
